@@ -1,31 +1,36 @@
-# terraform-aws-vpc
-Create VPC with multiple subnets on AWS by using this terraform infra provisioning code ( IaaC)
+Terraform - AWS VPC with Public and Private subnets
 
 AWS Resources:
-â€¢	Region
-â€¢	Availability zone
-â€¢	VPC
-â€¢	Web and DB tiers
-â€¢	Security Groups ( Web tier , DB tier )
-â€¢	Internet Gateway
-â€¢	Route Table
-â€¢	Route Table and Subnet association
-â€¢	EC2 instance in Web and DB tier
+•	Region
+•	Availability zone
+•	VPC
+•	Web and DB tiers
+•	Security Groups ( Web tier , DB tier )
+•	Internet Gateway
+•	Route Table
+•	Route Table and Subnet association
+•	EC2 instance in Web and DB tier
 
 Requirements:
     
-â€¢	Terraform Binary
-â€¢	Access_key ( for programmatic access )
-â€¢	Secret_key ( for programmatic access )
-â€¢	Key_name ( To access ec2 instances )
-â€¢	Path_of_Private_key_on_local_machine ( To access ec2 instances )
+•	Terraform Binary
+•	Access_key ( for programmatic access )
+•	Secret_key ( for programmatic access )
+•	Key_name ( To access ec2 instances )
+•	Path_of_Private_key_on_local_machine ( To access ec2 instances )
 
 Installation :
 
-To create a VPC on aws using terraform code in this repository, variables need to be configured as per the oneâ€™s own need.
+To create a VPC on aws using terraform code in this repository, variables need to be configured as per the one’s own need.
+
+
+
+Variables files: 
+•	Terraform.tfvars : vars that overwrites default values
+•	Varables.tf: contains default values of vars
 
 Commands :
 
-â€¢	Terraform init
-â€¢	Terraform plan -out aws_vpc.plan
-â€¢	Terraform apply aws_vpc.plan
+•	Terraform init
+•	Terraform plan -out aws_vpc.plan
+•	Terraform apply aws_vpc.plan
