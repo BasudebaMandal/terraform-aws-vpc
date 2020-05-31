@@ -23,11 +23,11 @@ Terraform 0.12. Pin module version to `~> v2.0`. Submit pull-requests to `master
 
 ## Requirements
 
-* [Terraform Binary]
-* [Access_key ( for programmatic access )]
-* [Secret_key ( for programmatic access )]
-* [Key_name ( To access ec2 instances )]
-* [Path_of_Private_key_on_local_machine ( To access ec2 instances )]
+* Terraform Binary
+* Access_key ( for programmatic access )
+* Secret_key ( for programmatic access )
+* Key_name ( To access ec2 instances )
+* Path_of_Private_key_on_local_machine ( To access ec2 instances )
 
 
 ## Installation
@@ -38,12 +38,12 @@ To create a VPC on aws using terraform code in this repository, variables need t
 ##  Variables files: 
 
 
-* [Terraform.tfvars : vars that overwrites default values]
-* [Varables.tf: contains default values of vars]
+* Terraform.tfvars : vars that overwrites default values
+* Varables.tf: contains default values of vars
 
 
 ##  Commands :
 
-* [terraform init]
-* [terraform plan -out aws_vpc.plan]
-* [terraform apply aws_vpc.plan]
+* terraform init
+* terraform plan -out aws_vpc.plan
+* terraform apply aws_vpc.plan
